@@ -9,33 +9,37 @@ version: 2
 name: Jonathan Woojin Jang
 title: Software Engineer
 email: jwj3767@rit.edu
+# email_title: Email (Email title override)
+phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
 website: www.github.com/jon-a-thang/
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: 
+twitter_username: jekyllrb
 github_username:  jon-a-thang
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+stackoverflow_username: 
+dribbble_username: 
+facebook_username: 
+flickr_username: 
 instagram_username: _jon_a_thang
 linkedin_username: jonathanwjang
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+xing_username: 
+pinterest_username: 
+youtube_username: 
+orcid_username: 
+googlescholar_username: 
 
 # Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-  # url: https://www.itsgoingto.be
+additional_links:
+- title: Link name
+  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  url: Link url (eg. https://google.com)
 # - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
@@ -48,10 +52,6 @@ linkedin_username: jonathanwjang
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
   Detail-oriented Software Engineer with 5 years of experience designing, developing, and deploying scalable web and mobile applications. Passionate about clean code, product-focused engineering, and continuous learning. Adept at cross-functional teamwork and agile environments.
   Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
 
@@ -120,6 +120,8 @@ footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 remote_theme: sproogen/resume-theme
 
 sass:
@@ -128,3 +130,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
