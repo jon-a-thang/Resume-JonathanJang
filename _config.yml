@@ -98,19 +98,22 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 
         sub-title: Languages
         quote: >
           
         description: | # this will include new lines to allow paragraphs
             JavaScript, TypeScript, Python, Java, C, C#
       - layout: left
+        title: 
         sub-title: Frameworks
         quote: >
           
         description: | # this will include new lines to allow paragraphs
             React, Next.js, Node.js, Express, Django, Flutter, .NET Core
-      - sub-title: left
-        title: Databases
+      - layout: left
+        title: 
+        sub-title: Databases
         quote: >
           
         description: | # this will include new lines to allow paragraphs
