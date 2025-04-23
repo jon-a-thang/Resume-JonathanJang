@@ -56,6 +56,34 @@ about_content: | # this will include new lines to allow paragraphs
   Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
 
 content:
+  - title: Tech Stack
+    layout: text
+    content: |
+      **Languages**: JavaScript, TypeScript, Python, Java, C, C#  
+      **Frameworks**: React, Next.js, Node.js, Express, Django, Flutter, .NET Core  
+      **Databases**: SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB  
+      **Tools**: Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG  
+      **Other**: RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+
+  - title: Projects #### PROJECTS ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak
+        title: In-App Wallet System
+        quote: >
+          Built a Stripe-powered wallet feature allowing users to deposit and manage funds in KRW and USD.
+        description: |
+          **Tech**: React, Supabase, TypeScript, Stripe API
+
+      - layout: left
+        border: weak
+        title: Home Server
+        quote: >
+          Deployed a self-hosted cloud storage system with secure access, reverse proxy, and custom DNS.
+        description: |
+          **Tech**: Unraid, Docker, NGINX, SWAG, MariaDB, Cloudflare, NextCloud
+
   - title: Projects #### PROJECTS ####
     layout: list # Type of content section (list/text)
     content:
