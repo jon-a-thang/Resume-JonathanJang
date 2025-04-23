@@ -57,46 +57,15 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Tech Stack
-    layout: list
-    content:
-      - layout: top-middle
-        title: Languages
-        description: | # this will include new lines to allow paragraphs
-          JavaScript, TypeScript, Python, Java, C, C#
-      - layout: top-middle
-        title: Frameworks
-        description: | # this will include new lines to allow paragraphs
-          React, Next.js, Node.js, Express, Django, Flutter, .NET Core
-      - layout: top-middle
-        title: Databases
-        description: | # this will include new lines to allow paragraphs
-          SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB
-      - layout: top-middle
-        title: Tools
-        description: | # this will include new lines to allow paragraphs
-          Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG
-      - layout: top-middle
-        title: Other
-        description: | # this will include new lines to allow paragraphs
-          RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
-
-  - title: Tech Stack
     layout: text
     content: |
-      **Languages**  
-      JavaScript, TypeScript, Python, Java, C, C#
-
-      **Frameworks**  
-      React, Next.js, Node.js, Express, Django, Flutter, .NET Core
-
-      **Databases**  
-      SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB
-
-      **Tools**  
-      Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG
-
-      **Other**  
-      RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+      <div align="center">
+      <strong>Languages</strong>: JavaScript, TypeScript, Python, Java, C, C#  
+      <strong>Frameworks</strong>: React, Next.js, Node.js, Express, Django, Flutter, .NET Core  
+      <strong>Databases</strong>: SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB  
+      <strong>Tools</strong>: Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG  
+      <strong>Other</strong>: RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+      </div>
 
   - title: Projects #### PROJECTS ####
     layout: list # Type of content section (list/text)
