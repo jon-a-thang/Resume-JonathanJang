@@ -65,7 +65,7 @@ content:
       **Tools**: Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG  
       **Other**: RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
 
-  - title: Projects #### PROJECTS ####
+  - title: Proj #### PROJECTS ####
     layout: list # Type of content section (list/text)
     content:
       - layout: left
