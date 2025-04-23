@@ -115,7 +115,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Built a Stripe-powered wallet feature allowing users to deposit and manage funds in KRW and USD.
+          Developed and deployed a full-featured wallet system enabling users to deposit and manage funds in both KRW and USD using the Stripe API. Integrated the system within a larger SaaS platform with secure transaction logging and user authentication via Supabase. Implemented frontend logic in React with TypeScript, created Stripe payment intents, and handled payment success/cancellation flows. Ensured responsive design and accessibility for both web and mobile users.
           Tech: React, Supabase, TypeScript, Stripe API
 
       - layout: top-middle
@@ -132,8 +132,8 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Deployed a self-hosted cloud storage system with secure access, reverse proxy, and custom DNS.
-          Tech: Unraid, Docker, NGINX, SWAG, MariaDB, Cloudflare, NextCloud
+          Architected and maintained a secure, self-hosted personal cloud solution for file storage and management. Deployed services on an Unraid server using Docker containers, with NextCloud as the core cloud platform. Set up NGINX with SWAG (Secure Web Application Gateway) as a reverse proxy for HTTPS access, configured MariaDB for data persistence, and used Cloudflare for DNS management and DDoS protection. Automated regular backups and managed resource monitoring for optimal uptime and performance.
+          Tech: Unraid Server, Docker, NGINX, SWAG, MariaDB, Cloudflare, NextCloud
 
 
   - title: Experience #### EXPERIENCE ####
