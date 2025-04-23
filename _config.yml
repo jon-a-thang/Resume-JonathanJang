@@ -93,43 +93,50 @@ content:
             * Used Python, SQL, and UI Designing tools to create a data visualization software for the US Armed Forces to assist with mission planning in order to maximize the efficiency of fuel and other resources that need tracking
 
 
-
-  - title: Tech Stack #### TECH STACK ####
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 
-        sub-title: Languages
-        quote: >
+  - title: Tech Stack
+    layout: text
+    content: |
+      **Languages**: JavaScript, TypeScript, Python, Java, C, C#  
+      **Frameworks**: React, Next.js, Node.js, Express, Django, Flutter, .NET Core  
+      **Databases**: SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB  
+      **Tools**: Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG  
+      **Other**: RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+  # - title: Tech Stack #### TECH STACK ####
+  #   layout: text # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: 
+  #       sub-title: Languages
+  #       quote: >
           
-        description: | # this will include new lines to allow paragraphs
-            JavaScript, TypeScript, Python, Java, C, C#
-      - layout: left
-        title: 
-        sub-title: Frameworks
-        quote: >
+  #       description: | # this will include new lines to allow paragraphs
+  #           JavaScript, TypeScript, Python, Java, C, C#
+  #     - layout: left
+  #       title: 
+  #       sub-title: Frameworks
+  #       quote: >
           
-        description: | # this will include new lines to allow paragraphs
-            React, Next.js, Node.js, Express, Django, Flutter, .NET Core
-      - layout: left
-        title: 
-        sub-title: Databases
-        quote: >
+  #       description: | # this will include new lines to allow paragraphs
+  #           React, Next.js, Node.js, Express, Django, Flutter, .NET Core
+  #     - layout: left
+  #       title: 
+  #       sub-title: Databases
+  #       quote: >
           
-        description: | # this will include new lines to allow paragraphs
-            SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB
-      - layout: left
-        title: Tools
-        quote: >
+  #       description: | # this will include new lines to allow paragraphs
+  #           SSMS, PostgreSQL, MongoDB, Supabase, Firebase, MySQL, MariaDB
+  #     - layout: left
+  #       title: Tools
+  #       quote: >
           
-        description: | # this will include new lines to allow paragraphs
-            Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG
-      - layout: left
-        title: Other
-        quote: >
+  #       description: | # this will include new lines to allow paragraphs
+  #           Git, Docker, Vercel, AWS, Stripe API, NGINX, Cloudflare, Unraid, SWAG
+  #     - layout: left
+  #       title: Other
+  #       quote: >
           
-        description: | # this will include new lines to allow paragraphs
-            RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
+  #       description: | # this will include new lines to allow paragraphs
+  #           RESTful APIs, GraphQL, CI/CD, TDD, Agile/Scrum, NextCloud
 
 
 
@@ -218,3 +225,7 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+# References:
+# https://jojoldu.github.io/
+# https://www.jameswgrant.co.uk/
