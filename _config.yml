@@ -10,7 +10,7 @@ name: Jonathan Woojin Jang
 title: Software Engineer
 email: jwj3767@rit.edu
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +1 917-359-9861
 # phone_title: Phone (Phone title override)
 website: www.github.com/jon-a-thang/
 # website_title: Web (Website title override)
@@ -55,20 +55,106 @@ about_content: | # this will include new lines to allow paragraphs
   Detail-oriented Software Engineer with 5 years of experience designing, developing, and deploying scalable web and mobile applications. Passionate about clean code, product-focused engineering, and continuous learning. Adept at cross-functional teamwork and agile environments.
   Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
 
-# Projects Section
-projects_title: Projects title #(Use this to override about projects section title)
+content:
+  - title: Projects #### PROJECTS ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: In-App Wallet System
+        link: github.com/jon-a-thang
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+      - layout: top-middle
+        title: Home Server
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-# Experience Section
-experience_title: Experience title #(Use this to override about experience section title)
+  - title: Experience #### EXPERIENCE ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Longi Engineering
+        link: https://longieng.com/
+        sub_title: Software Engineer
+        caption: June 2022 - March 2025
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Developed SaaS solutions within the Microsoft Power Platform ecosystem, utilizing Power Apps, Power Automate, and Power BI to streamline business workflows and data visualization.
+            * Built and customized client-facing applications using SPFx, React, and .NET Core, integrating with SharePoint, SSMS, and IIS.
+            * Automated data migration processes by integrating Python scripts with the SharePoint Migration Tool, enabling efficient extraction, transformation, and loading (ETL) of metadata and files.
+            * Wrote complex SQL scripts to manage data across both small and large datasets, including updates, inserts, and deletions within enterprise-scale databases.
+      - layout: left
+        title: Solomon Agency Corp
+        link: https://www.solomonus.com/
+        sub_title: IT Specialist & Automation Developer
+        caption: April 2021 - June 2022
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Configured and deployed user workstations, managed Active Directory (AD) updates, installed software and patches, and provided technical support for email, network, printer, and workstation issues.
+            * Automated document-handling workflows using Python, leveraging libraries such as OCR, PDF2Text, Selenium, BeautifulSoup, Pandas, and NumPy to extract, process, and structure insurance data — significantly reducing manual effort and improving accuracy.
+            * Developed scripts to generate databases and tables for storing and organizing extracted insurance document data.
+      - layout: left
+        title: Niche Industries Corp.
+        link: 
+        sub_title: Cybersecurity Developer & Co-Founder
+        caption: August 2019 - December 2019
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+            * Used Python, SQL, and UI Designing tools to create a data visualization software for the US Armed Forces to assist with mission planning in order to maximize the efficiency of fuel and other resources that need tracking
 
-# Education Section
-educaton_title: Education title #(Use this to override about education section title)
+  - title: Education #### EDUCATION ####
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Rochester Institute of Technology
+        caption: August 2015 - December 2020
+        sub_title: |
+          Bachelor of Science in Computing Security
+          "Cumulative GPA: 3.39/4.00"
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          During my time at Rochester Institute of Technology, I developed a strong foundation in software and security-focused engineering. My coursework included a wide range of topics such as Fundamentals of Computing Security, System Administration, Cyber Defense Techniques, Malware Reverse Engineering, and Principles of Web Application Security, all of which deepened my understanding of backend systems, secure network design, and threat mitigation. These classes, along with hands-on labs and team-based projects, allowed me to apply technical concepts in real-world simulations and sparked my interest in building secure, scalable software systems.
+          Outside the classroom, I immersed myself in extracurricular activities that sharpened both my technical and interpersonal skills. As a dedicated member of RITSEC, I regularly participated in cybersecurity challenges and attended talks on topics like penetration testing and cryptography. I was also involved with RC3 and SPARSA, and competed in events such as the Incident Response Security Competition (IRSec) and the Networking and Systems Infrastructure Competition (NSIC). Beyond tech, I contributed to RIT's Ultimate Frisbee Club and volunteered in various ministries at local churches, where I supported AV/tech setups and event coordination. These experiences helped round out my ability to collaborate, lead, and communicate effectively in fast-paced, team-driven environments.
 
-# More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
-more_content: > # this means to ignore newlines until the next config item.
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
-  and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Rock climbing
+      - Gaming
+      - Knitting
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+      Look at this cool image  
+      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests. Or you could title it **Skills**
+      and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
