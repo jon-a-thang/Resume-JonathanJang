@@ -52,8 +52,11 @@ googlescholar_username:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Detail-oriented Software Engineer with 5 years of experience designing, developing, and deploying scalable web and mobile applications. Passionate about clean code, product-focused engineering, and continuous learning. Adept at cross-functional teamwork and agile environments.<br>
-  Experienced in both modern full-stack development and the Microsoft Power Platform, including Power Apps, Power Automate, and Power BI, enabling the rapid delivery of low-code business solutions alongside custom development.
+  데이터 기반 문제 해결에 열정을 가진 소프트웨어 엔지니어로서, 5년간 웹 및 모바일 환경에서 확장 가능한 애플리케이션을 설계, 개발, 배포한 경험을 보유하고 있습니다.<br>
+  깨끗한 코드 작성, 제품 중심의 엔지니어링, 그리고 지속적인 학습에 열정을 가지고 있으며, Cross-functional 팀워크와 Agile 환경에서의 협업에 능숙합니다.<br>
+  특히, 최신 풀스택 개발과 Microsoft Power Platform(Power Apps, Power Automate, Power BI)을 모두 경험하며, 비즈니스 요구에 맞춘 로우코드 솔루션과 커스텀 개발을 신속하게 제공해 왔습니다.<br>
+  최근에는 분산 데이터 처리 및 데이터 파이프라인 구축에 관심을 갖고 기술 역량을 확장 중이며, SQL 기반의 대용량 데이터 처리 경험과 클라우드 환경(AWS 등)에서의 구축 및 운영 경험을 갖추고 있습니다.<br>
+  데이터 품질 향상과 KPI 중심 분석을 통해 데이터 기반 의사결정 및 서비스 고도화에 기여하고자 합니다.
 
 content:
   - title: Experience #### EXPERIENCE ####
@@ -67,10 +70,10 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            * Developed SaaS solutions within the Microsoft Power Platform ecosystem, utilizing Power Apps, Power Automate, and Power BI to streamline business workflows and data visualization.
-            * Built and customized client-facing applications using SPFx, React, and .NET Core, integrating with SharePoint, SSMS, and IIS.
-            * Automated data migration processes by integrating Python scripts with the SharePoint Migration Tool, enabling efficient extraction, transformation, and loading (ETL) of metadata and files.
-            * Wrote complex SQL scripts to manage data across both small and large datasets, including updates, inserts, and deletions within enterprise-scale databases.
+            * Microsoft Power Platform(Power Apps, Power Automate, Power BI)을 활용하여 SaaS 솔루션을 개발하고, 비즈니스 프로세스 자동화 및 데이터 시각화를 통해 업무 효율을 향상시킴.
+            * SPFx, React, .NET Core 기반의 클라이언트용 애플리케이션을 개발하고, SharePoint, SSMS, IIS 등 다양한 시스템과의 연동을 구현.
+            * SharePoint Migration Tool과 Python을 활용한 스크립트를 연동하여 대규모 메타데이터 및 파일의 ETL(추출, 변환, 적재) 자동화를 구축함.
+            * 대규모 엔터프라이즈 데이터베이스를 대상으로 복잡한 SQL 스크립트를 작성하여 데이터 삽입, 수정, 삭제 작업을 안정적으로 수행.
       - layout: left
         title: Solomon Agency Corp
         link: https://www.solomonus.com/
@@ -79,9 +82,10 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            * Configured and deployed user workstations, managed Active Directory (AD) updates, installed software and patches, and provided technical support for email, network, printer, and workstation issues.
-            * Automated document-handling workflows using Python, leveraging libraries such as OCR, PDF2Text, Selenium, BeautifulSoup, Pandas, and NumPy to extract, process, and structure insurance data — significantly reducing manual effort and improving accuracy.
-            * Developed scripts to generate databases and tables for storing and organizing extracted insurance document data.
+            * 사용자 워크스테이션 환경 구축, AD(Active Directory) 관리, 소프트웨어 설치 및 패치 적용, 네트워크·이메일·프린터 등 IT 인프라 전반에 대한 기술 지원 제공.
+            * OCR, PDF2Text, Selenium, BeautifulSoup, Pandas, NumPy 등 Python 기반의 데이터 처리 라이브러리를 활용하여 보험 문서 처리 자동화 시스템을 개발.
+            * 수작업을 대체하는 자동화 시스템을 통해 정확성을 향상시키고 문서 처리 속도를 크게 개선함.
+            * 추출된 데이터를 효율적으로 저장·관리하기 위한 데이터베이스 구조 설계 및 테이블 생성 스크립트 작성.
       - layout: left
         title: Niche Industries Corp.
         link: 
@@ -90,7 +94,8 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-            * Used Python, SQL, and UI Designing tools to create a data visualization software for the US Armed Forces to assist with mission planning in order to maximize the efficiency of fuel and other resources that need tracking
+            * 미군의 임무 계획을 지원하기 위한 데이터 시각화 소프트웨어를 Python과 SQL을 활용하여 개발.
+            * 연료 및 군수 자원 사용 효율을 극대화할 수 있도록 시각적 분석 툴을 설계하고, UI 설계를 통해 사용성을 높임.
 
 
   - title: Tech Stack
@@ -157,7 +162,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Developed and deployed a full-featured wallet system enabling users to deposit and manage funds in both KRW and USD using the Stripe API. Integrated the system within a larger SaaS platform with secure transaction logging and user authentication via Supabase. Implemented frontend logic in React with TypeScript, created Stripe payment intents, and handled payment success/cancellation flows. Ensured responsive design and accessibility for both web and mobile users.<br>
+          Stripe API를 활용해 원화(KRW) 및 미화(USD) 입금/자금 관리 기능이 포함된 지갑 시스템을 설계 및 배포. Supabase 기반의 인증 시스템과 결제 로깅 기능을 구현하였으며, React와 TypeScript를 사용하여 사용자 인터페이스를 구축. 결제 성공/실패 플로우 처리를 포함한 전반적인 UX 흐름을 구현하고, 반응형 웹·모바일 인터페이스를 완성.<br>
           Tech: React, Supabase, TypeScript, Stripe API
 
       - layout: top-middle
@@ -174,7 +179,7 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          Architected and maintained a secure, self-hosted personal cloud solution for file storage and management. Deployed services on an Unraid server using Docker containers, with NextCloud as the core cloud platform. Set up NGINX with SWAG (Secure Web Application Gateway) as a reverse proxy for HTTPS access, configured MariaDB for data persistence, and used Cloudflare for DNS management and DDoS protection. Automated regular backups and managed resource monitoring for optimal uptime and performance.<br>
+          Docker 기반의 Unraid 서버에 NextCloud를 중심으로 한 퍼스널 클라우드 환경을 구축하고, 파일 저장 및 관리 시스템 운영. NGINX와 SWAG(Secure Web Application Gateway)를 활용하여 HTTPS 역방향 프록시 설정, MariaDB를 통해 데이터 영속성 확보. Cloudflare를 통한 DNS 관리 및 DDoS 방어 적용, 주기적인 백업 자동화 및 리소스 모니터링을 통해 안정적인 서비스 제공.<br>
           Tech: Unraid Server, Docker, NGINX, SWAG, MariaDB, Cloudflare, NextCloud
 
 
@@ -191,9 +196,9 @@ content:
         quote: >
           
         description: | # this will include new lines to allow paragraphs
-          While studying at Rochester Institute of Technology, I developed a strong interest in backend systems, coding, and cybersecurity. Through labs and group projects, I got hands-on experience applying what I learned in class to real-world scenarios, which really helped me understand how to build secure and scalable systems.
+          컴퓨터 사이언스 전공 중 백엔드 개발 및 보안에 흥미를 느끼며 다양한 프로젝트 및 실습 참여. RITSEC, RC3, SPARSA 등 보안 관련 동아리 활동을 통해 IRSec, NSIC 등 전국 규모 대회에 출전하며 실무 역량 및 협업 능력 향상.
 
-          Outside of coursework, I was involved in clubs like RITSEC, RC3, and SPARSA, where I took part in competitions such as IRSec and NSIC. These experiences helped me grow as a team player, problem solver, and communicator in all kinds of settings.
+          다양한 환경에서 문제 해결 및 커뮤니케이션 능력을 키움으로써 기술 외적인 역량도 고루 갖춤.
 
   # - title: A Little More About Me
   #   layout: text
